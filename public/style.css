@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --color-purple: #7159c1;
+    --color-orange: #FD951F;
+    --color-green: #50fa7b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+}
+
+html,body {
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #121214;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+
+    background-color: #202024;
+    color: white;
+    text-align: center;
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.logo h1 {
+    color: #E1E1E6;
+    font-size: 26px;
+    line-height: 36px;
+}
+
+nav.primary ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav.primary ul li a {
+    display: flex;
+    align-items: center;
+
+    color: #E1E1E6;
+    font-weight: bold;
+
+    transition: 200ms;
+}
+
+nav.primary ul li a:hover {
+    color: white;
+}
+
+nav.primary ul li a i {
+    margin-right: 30px;
+}
+
+.user i {
+    margin-left: 8px;
+}
+
+.container {
+    width: 960px;
+    margin: 30px auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 430px;
+    height: 575px;
+    background-color: #202024;
+    padding: 34px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.card__image {
+    margin-top: 30%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card__image img {
+    width: 100%;
+    height: 130px;
+}
+
+.card__content {
+    width: 300px;
+    margin: 35px auto;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #87868B;
+    text-align: center;
+}
+
+#starter strong {
+    color: var(--color-purple);
+}
+
+#launchbase strong {
+   color: var(--color-orange); 
+}
+
+#gostack strong {
+    color: var(--color-green);
+}
+
+#starter:hover {
+    border: 2px solid var(--color-purple);
+}
+
+#launchbase:hover {
+    border: 2px solid var(--color-orange);
+}
+
+#gostack:hover {
+    border: 2px solid var(--color-green);
+}
+
+.card:hover {
+    animation: up 750ms ease;
+}
+
+@keyframes up {
+    from {
+        opacity: 1;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 2;
+    }
+}
+
