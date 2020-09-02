@@ -1,0 +1,26 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<div class="course__content">
+    <div class="title-course">
+        <h1>Conteúdo Disponivel</h1>
+    </div>
+
+    <div class="cards-courses">
+        {# {% for course in courses %} #}
+        <div class="card-course">
+            <div class="card__image-course">
+                <img src="https://xesque.rocketseat.dev/platform/1566444110414.png" alt="">
+            </div>
+
+            <div class="card__content-course">
+                <p>JavaScript</p>
+            </div>
+        </div>
+        {# {% endfor %} #}
+    </div>
+    <hr>
+</div>
+
+{% endblock content %}

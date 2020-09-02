@@ -155,3 +155,55 @@ nav.primary ul li a i {
     }
 }
 
+/* Cards Courses*/
+
+.title-course h1 {
+    margin-top: 40px;
+    color: #E1E1E6;
+}
+
+.cards-courses {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-course {
+    width: 221.06px;
+    height: 163px;
+    background-color: #202024;
+    padding: 24px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card__image-course {
+    width: 70px;
+    margin: 0 auto;
+}
+
+.card__image-course img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card__content-course {
+    margin-top: 15px;
+}
+
+.card__content-course p {
+    color: #E1E1E6;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+hr {
+    background-color: white;
+}

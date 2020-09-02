@@ -7,5 +7,5 @@ routes.get('/', function(req, res) {
 })
 
 routes.get('/rocketseat/dashboard', Rocketseat.dashboard)
-routes.get('/rocketseat/dashboard/:id', Rocketseat.course)
+routes.get('/rocketseat/starter', Rocketseat.starter)
 module.exports = routes
