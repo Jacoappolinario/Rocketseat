@@ -75,7 +75,7 @@ nav.primary ul li a i {
 }
 
 .container {
-    width: 960px;
+    width: 980px;
     margin: 30px auto;
 }
 
@@ -157,6 +157,15 @@ nav.primary ul li a i {
 
 /* Cards Courses*/
 
+.course__content {
+    width: 1184px;
+    margin: 30px auto;
+}
+
+.title-course {
+    justify-content: left;
+}
+
 .title-course h1 {
     margin-top: 40px;
     color: #E1E1E6;
@@ -165,14 +174,14 @@ nav.primary ul li a i {
 .cards-courses {
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 220px 220px 220px 220px 220px;
     grid-gap: 20px;
     align-items: center;
     justify-content: center;
 }
 
 .card-course {
-    width: 221.06px;
+    width: 220px;
     height: 163px;
     background-color: #202024;
     padding: 24px 16px;

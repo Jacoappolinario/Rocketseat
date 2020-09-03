@@ -5,7 +5,7 @@ for (let card of cards) {
         const paginaId = card.getAttribute('id')
 
         if (paginaId == "starter") {
-            window.location.href = `/rocketseat/${paginaId}`
+            window.location.href = `/rocketseat/dashboard/${paginaId}`
         } else if (paginaId == "launchbase" || paginaId == "gostack") {
             window.location.href = "https://rocketseat.com.br/"
         }

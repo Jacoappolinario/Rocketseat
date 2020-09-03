@@ -8,19 +8,18 @@
     </div>
 
     <div class="cards-courses">
-        {# {% for course in courses %} #}
+        {% for tecnologias in starter.tecnologias %}
         <div class="card-course">
             <div class="card__image-course">
-                <img src="https://xesque.rocketseat.dev/platform/1566444110414.png" alt="">
+                <img src="{{ tecnologias.image }}" alt="">
             </div>
 
             <div class="card__content-course">
-                <p>JavaScript</p>
+                <p>{{ tecnologias.name }}</p>
             </div>
         </div>
-        {# {% endfor %} #}
+        {% endfor %}
     </div>
-    <hr>
 </div>
 
 {% endblock content %}
