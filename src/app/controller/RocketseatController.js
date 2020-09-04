@@ -1,11 +1,17 @@
-const data = require('../../../data')
-const starter = require('../../../database')
+const Starter = require('../models/Starter')
+const Dashboard = require('../models/Dashboard')
 
 module.exports = {
-    dashboard(req, res) {
-        return res.render("rocketseat/dashboard", { courses: data })
+    async dashboard(req, res) {
+        let results = await Dashboard.all()
+        const courses = results.rows
+
+        return res.render("rocketseat/dashboard", { courses })
     },
-    starter(req, res) {
-        return res.render("rocketseat/starter", { starter })
+    async starter(req, res) {
+        let results = await Starter.all()
+        const courses = results.rows
+
+        return res.render("rocketseat/starter", { courses })
     }
 }

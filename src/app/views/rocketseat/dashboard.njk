@@ -4,9 +4,9 @@
 <div class="container">
     <section class="cards">
         {% for course in courses %}
-        <div class="card" id="{{ course.id }}">
+        <div class="card" id="{{ course.name }}">
             <div class="card__image">
-                <img src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/assets/{{ course.image }}" alt="">
+                <img src="{{ course.image }}" alt="">
             </div>
             
             <div class="card__content">

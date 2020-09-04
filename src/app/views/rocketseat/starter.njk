@@ -8,14 +8,14 @@
     </div>
 
     <div class="cards-courses">
-        {% for tecnologias in starter.tecnologias %}
+        {% for course in courses %}
         <div class="card-course">
             <div class="card__image-course">
-                <img src="{{ tecnologias.image }}" alt="">
+                <img src="{{ course.image }}" alt="">
             </div>
 
             <div class="card__content-course">
-                <p>{{ tecnologias.name }}</p>
+                <p>{{ course.name }}</p>
             </div>
         </div>
         {% endfor %}

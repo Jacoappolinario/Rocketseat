@@ -213,6 +213,10 @@ nav.primary ul li a i {
     text-align: center;
 }
 
+.card-course:hover {
+    background-color: #29292E;
+}
+
 hr {
     background-color: white;
 }
