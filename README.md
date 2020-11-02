@@ -19,15 +19,11 @@ Site baseado na plataforma de ensino da Rocketseat.
 
 ```bash
 # Faça um clone
-$ git clone https://github.com/Jacoappolinario/Foodfy.git
+$ git clone https://github.com/Jacoappolinario/Rocketseat.git
 
 # Navegue até o repositório clonado:
-$ cd Foodfy
+$ cd Rocketseat
 
-```
-Adicione credenciais de acesso ao banco de dados no arquivo src / config / db.js.
-
-```bash
 # Baixe as dependências:
 $ npm install
 
