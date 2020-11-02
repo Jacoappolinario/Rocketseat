@@ -39,12 +39,21 @@ header {
 .logo {
     cursor: pointer;
     margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 35px;
 }
 
-.logo h1 {
+.logo a {
+    display: flex;
+    align-items: center;
     color: #E1E1E6;
-    font-size: 26px;
-    line-height: 36px;
+    font-weight: bold;
+}
+
+.logo i {
+    margin-right: 8px;
 }
 
 nav.primary ul {
