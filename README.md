@@ -4,8 +4,8 @@
     <b>Rocketseat</b>
     <br><br>
     <p align="center">
-        <img src="https://img.shields.io/badge/By-Jac%C3%B3%20Apolin%C3%A1rio-blue">
-        <img src="https://img.shields.io/badge/License-MIT-blue">
+        <img src="https://img.shields.io/badge/By-Jac%C3%B3%20Apolin%C3%A1rio-7159c1">
+        <img src="https://img.shields.io/badge/License-MIT-7159c1">
     </p>
 </h3>
 
